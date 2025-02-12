@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import constants
 key = constants.openAI_key
 
-ipl_matches = pd.read_csv('./archive/matches.csv')
-ipl_deliveries = pd.read_csv('./archive/deliveries.csv')
+ipl_matches = pd.read_csv('./data/matches.csv')
+ipl_deliveries = pd.read_csv('./data/deliveries.csv')
 print (ipl_matches.shape)
 ipl_deliveries.head()
 ipl_matches.head()
